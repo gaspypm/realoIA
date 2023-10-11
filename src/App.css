@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.language-selector {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+}
