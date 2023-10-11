@@ -36,7 +36,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+button, select {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -46,13 +46,22 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  text-align: center;
 }
-button:hover {
+button:hover, select:hover {
   border-color: #646cff;
 }
 button:focus,
-button:focus-visible {
+button:focus-visible,
+select:focus,
+select:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media (prefers-color-scheme: light) {
